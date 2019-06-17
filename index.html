@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How Well Do you know your Pokemon?</title>   
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="description" content="Create and Test your App Idea"> 
+  <!-- font --> 
+  <link href="https://fonts.googleapis.com/css?family=B612+Mono|Noto+Sans+HK&display=swap" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="quiz.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+  <!--Title-->
+      <h1>Pokemon Quiz</h1>
+         <p>Take a quiz about the pokemon.</p>
+  <!--Question-->
+      <form role="form" action="/quiz" accept-charset="UTF-8" class="quiz">
+        <fieldset>
+          <legend>
+            <p>Which Pokémon is known for it's lullaby?</p> 
+           </legend>
+              <ol type="A">
+                <li><label for="answerA">Jigglypuff</label><option id="answerA" name="answer" value="0"></li>
+                <li><label for="answerB">Metagross</label><option id="answerB" name="answer" value="1"></li>
+                <li><label for="answerC">Diggersby</label><option id="answerC" name="answer" value="2"></li>
+                <li><label for="answerD">Exeggutor</label><option id="answerD" name="answer" value="3"></li>
+              </ol>
+              <input type="submit">
+        </fieldset>
+      </form>
+  <!--Feedback Page-->
+      <h2>Sorry, that's incorrect...</h2>
+      <p>The correct answer was A.</p>
+      <button id="nextQuestionButton">Next question</button>
+  <!--Score Page-->
+      <h2>Congratulations! You finished the quiz!</h2>
+      <p>you scored 10/10</p>
+      <p>You certainly know your stuff!<p>
+      <button id="restartQuizButton">Restart Quiz</button>
+    </main>
+  </body>
+</html>
+

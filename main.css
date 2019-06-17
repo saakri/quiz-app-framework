@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  background: linear-gradient(90deg, rgb(198, 198, 202));
+
+}
+
+h1, h2 {
+  font-family: 'B612 Mono', serif;
+}
+button, input {
+  background: rgb(202, 202, 197);
+  color: rgb(129, 129, 122);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
